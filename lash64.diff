@@ -1,0 +1,12 @@
+diff -x '*.o' -Nur lash/src/lash-core/lash-types.h lash_patched/src/lash-core/lash-types.h
+--- lash/src/lash-core/lash-types.h	2005-05-02 18:15:33.000000000 +0200
++++ lash_patched/src/lash-core/lash-types.h	2016-10-29 15:38:01.000000000 +0200
+@@ -43,7 +43,7 @@
+ typedef  signed   long long        /*  -0x8000000000000000 ...      */
+                         sint8;     /*         0x7fffffffffffffff.   */
+ 
+-typedef  uint4    uintptr;         /*  Same size as memory pointer. */
++typedef  uint8    uintptr;         /*  Same size as memory pointer. */
+ 
+ /**  Integer constants. These definitions are system-dependent     **/
+ /**  and must be updated if the package is moved to a new          **/

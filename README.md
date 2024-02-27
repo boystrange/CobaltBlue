@@ -5,18 +5,18 @@ Overview
 --------
 
 Cobalt is a behaviorally typed, mildly sugared version of the
-_Objective Join Calculus_ [#OJC] that can be used to write simple
+_Objective Join Calculus_ [OJC] that can be used to write simple
 programs consisting of (concurrent) object definitions along with the
 corresponding _object protocols_. CobaltBlue is a tool that performs
 *protocol* and *deadlock* analysis of Cobalt programs: it checks that
 each object in the program is consistent with — and is used according
 to — its protocol; it checks that, if the program halts, all messages
 with relevant arguments have been consumed. The tool implements (an
-extension of) the type system described in [#CrafaPadovani15] and
-[#CrafaPadovani17].
+extension of) the type system described in [CrafaPadovani15] and
+[CrafaPadovani17].
 
 Below is a summary of Cobalt's main features and a simple example of
-(ill-typed) Cobalt program modeling a lock. ![image](Lock.png)
+(ill-typed) Cobalt program modeling a lock.
 
 * Cobalt supports _typestate_ and _object-oriented programming_ in
   an naturally _concurrent_ setting.

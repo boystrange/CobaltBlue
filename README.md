@@ -1,15 +1,5 @@
-Title:	CobaltBlue
-Author:	Luca Padovani
-CSS:	CobaltBlue.css
-
 Cobalt**Blue** — Behavioral Type Checking for Concurrent Objects
 ================================================================
-
-* [Overview][]
-* [Download][]
-* [Installation instructions][]
-* [Documentation][]
-* [Emacs mode][]
 
 Overview
 --------
@@ -58,19 +48,6 @@ Below is a summary of Cobalt's main features and a simple example of
 * CobaltBlue integrates an _interpreter_ based on a simple
   implementation of the _actor model_. Each object is mapped to an
   actor.
-
-For questions, suggestions and bug reports please contact [Luca
-Padovani](http://www.di.unito.it/~padovani/index.html).
-
-Download
---------
-
-* [CobaltBlue 2.1](CobaltBlue-2.1.tar.gz) - bug fix (02/12/2017)
-
-* [CobaltBlue 2.0](CobaltBlue-2.0.tar.gz) — deadlock analysis (06/11/2017)
-
-* [CobaltBlue 1.0](CobaltBlue-1.0.tar.gz) — first public release
-  (22/01/2017)
 
 Installation Instructions
 -------------------------
@@ -159,7 +136,7 @@ Documentation
   Programming](CobaltBlueTutorial.pdf) with CobaltBlue.
 
 * The type system on which CobaltBlue is based has been described in
-  [#CrafaPadovani15], [#CrafaPadovani17] and [#Padovani17].
+  [CrafaPadovani15], [CrafaPadovani17] and [Padovani17].
 
 * CobaltBlue's type checking/inference algorithm and deadlock analysis
   will be detailed in forthcoming publications.
@@ -177,20 +154,22 @@ syntax highlighting for Cobalt programs. Add the line
 
 to your `.emacs` initialization file.
 
-[#OJC]: Cédric Fournet, Cosimo Laneve, Luc Maranget and Didier Rémy:
+References
+----------
+
+[OJC]: Cédric Fournet, Cosimo Laneve, Luc Maranget and Didier Rémy:
 [Inheritance in the Join
 Calculus](http://dx.doi.org/10.1016/S1567-8326(03)00040-7), *Journal
 of Logic and Algebraic Programming*, 2003.
 
-[#CrafaPadovani15]: Silvia Crafa and Luca Padovani: [The Chemical
+[CrafaPadovani15]: Silvia Crafa and Luca Padovani: [The Chemical
 Approach to Typestate-Oriented
 Programming](http://dx.doi.org/10.1145/2814270.2814287), *Proceedings
 of OOPSLA*, 2015.
 
-[#CrafaPadovani17]: Silvia Crafa and Luca Padovani: [The Chemical
+[CrafaPadovani17]: Silvia Crafa and Luca Padovani: [The Chemical
 Approach to Typestate-Oriented
 Programming](http://dx.doi.org/10.1145/3064849), *ACM Transactions on Programming Languages and Systems*, 2017.
 
-[#Padovani17]: Luca Padovani: [Deadlock-Free Typestate-Oriented Programming](https://hal.archives-ouvertes.fr/hal-01628801), *Technical Report HAL 01628801*, 2017.
+[Padovani17]: Luca Padovani: [Deadlock-Free Typestate-Oriented Programming](https://hal.archives-ouvertes.fr/hal-01628801), *Technical Report HAL 01628801*, 2017.
 
-<last-change>$LastChangedDate: 2017-11-06 20:41:47 +0100 (Mon, 06 Nov 2017) $</last-change>
